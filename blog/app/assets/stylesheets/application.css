@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.container {
+  background-color: #BFB9B9;
+  font-family: 'Montserrat', serif;
+}
+
+body {
+  font-family: 'Montserrat', serif;
+}
+
+#wel {
+  font-size: 35px;
+}
+
+#title {
+  font-family: 'Montserrat', serif;
+}
+
+td {
+  padding: 10px;
+  margin: 5px;
+}
+
+th {
+  padding: 10px;
+  margin: 5px;
+}
+
+tr {
+  padding: 10px;
+  margin: 5px;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Monserrat', serif;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #BFB9B9;
+}
