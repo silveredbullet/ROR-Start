@@ -1,5 +1,7 @@
 # README
 
+(Just started using Ruby on Rails and used this instruction manual)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
