@@ -14,21 +14,54 @@
  *= require_self
  */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .container {
-  background-color: #BFB9B9;
   font-family: 'Montserrat', serif;
 }
 
 body {
   font-family: 'Montserrat', serif;
+  width: 100%;
 }
 
-#wel {
-  font-size: 35px;
+#login {
+  float: right;
 }
+#front {
+  display: block;
+}
+
+
 
 #title {
   font-family: 'Montserrat', serif;
+  position: relative;
+  padding: 10px;
+  font-size: 60px;
+  margin: 10px;
+  color: #fff;
+}
+
+#table {
+  padding-left: 10px;
+}
+
+#header {
+  padding: 20px;
+  width: 100%;
+}
+
+#header-1 {
+  background-image: url(http://maxpixel.freegreatpicture.com/static/photo/1x/Coffe-Time-Work-Coffee-Break-Workspace-Working-791434.jpg);
+  padding: 150px;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  z-index: -1;
+}
+
+table {
+  padding-left: 10px;
 }
 
 td {
@@ -46,9 +79,10 @@ tr {
   margin: 5px;
 }
 
-p {
+h2 {
   font-size: 20px;
   font-family: 'Monserrat', serif;
+  padding-left: 50px;
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {

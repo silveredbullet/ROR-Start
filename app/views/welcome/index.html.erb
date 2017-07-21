@@ -1,9 +1,39 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<div class="banner" id="header">
+  <div class="container">
+<table>
+  <tr>
+    <th><i class="fa fa-twitter" aria-hidden="true"></i>Home</th>
+    <th>About</th>
+    <th id="lang">Language: English</th>
+  </tr>
+</table>
+</div>
+</div>
+
+<div class="container" id="front">
+  <div class="col-lg-5 col-lg-offset-1">
+    <h1>Welcome to Twitter.</h1>
+    <br>
+    <p>Connect with your friends — and other fascinating people. Get in-the-moment updates on the things that interest you. And watch events unfold, in real time, from every angle.</p>
+    <div class="col-lg-6" id="login">
+      <form action="/action_page.php">
+        <div class="container">
+
+          <input type="text" placeholder="Phone, email or username" name="uname" required>
+          <br>
+          <input type="password" placeholder="Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <br>
+          <input type="checkbox" checked="checked"> Remember me
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+
+</div>
+</div>
+
 <div class="container">
-
-<h1 class="text-center" id="wel">Hello, Rails!</h1>
-
-<p>Ruby on Rails, or simply Rails, is a server-side web application framework written in Ruby under the MIT License.
-</p>
-
-<%= link_to 'Rails Tutorial Work', controller: 'articles', class: 'btn btn-primary' %>
+<%= link_to 'Rails Tutorial Work', controller: 'articles' %>
 </div>
