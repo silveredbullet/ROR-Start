@@ -1,0 +1,69 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.container {
+  background-color: #BFB9B9;
+  font-family: 'Montserrat', serif;
+}
+
+body {
+  font-family: 'Montserrat', serif;
+  width: 100%;
+}
+
+#wel {
+  font-size: 35px;
+}
+
+#title {
+  font-family: 'Montserrat', serif;
+  position: relative;
+}
+
+#table {
+  padding-left: 50px;
+}
+
+table {
+  padding-left: 50px;
+}
+
+td {
+  padding: 10px;
+  margin: 5px;
+  padding-left: 50px;
+}
+
+th {
+  padding: 10px;
+  margin: 5px;
+  padding-left: 50px;
+}
+
+tr {
+  padding: 10px;
+  margin: 5px;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Monserrat', serif;
+  padding-left: 50px;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #BFB9B9;
+}
