@@ -26,11 +26,17 @@ body {
 
 #login {
   float: right;
+  text-align: left;
+  clear: both;
 }
 #front {
   display: block;
 }
-
+#signup {
+  float:right;
+  text-align: left;
+  clear: both;
+}
 
 
 #title {
