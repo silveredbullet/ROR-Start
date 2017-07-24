@@ -8,6 +8,7 @@
     <th id="lang">Language: English</th>
   </tr>
 </table>
+<input type="text" name="search" placeholder="Search..">
 </div>
 </div>
 
@@ -33,7 +34,7 @@
       <button type="submit">Login</button>
       <br>
       <input type="checkbox" checked="checked"> Remember me
-      <span class="psw">Forgot <a href="#">password?</a></span>
+      <span class="psw"><a href="#">Forgot password?</a></span>
     </div>
   </form>
 
@@ -47,12 +48,12 @@
 
     <input type="text" placeholder="Full name" name="name" required>
     <br>
-    <input type="password" placeholder="Email" name="email" required>
+    <input type="text" placeholder="Email" name="email" required>
     <br>
     <input type="password" placeholder="Password" name="psw" required>
 
     <div class="clearfix">
-      <button type="submit" class="signupbtn">Sign up for Twitter</button>
+      <button type="submit" class="signupbtn"><%= link_to 'Sign up for Twitter', controller: 'signup' %></button>
     </div>
   </div>
 </form>

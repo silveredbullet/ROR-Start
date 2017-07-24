@@ -38,6 +38,12 @@ body {
   clear: both;
 }
 
+#lang {
+  clear: both;
+  float: right;
+  padding-left: 768px;
+}
+
 
 #title {
   font-family: 'Montserrat', serif;

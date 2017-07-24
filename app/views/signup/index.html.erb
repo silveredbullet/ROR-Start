@@ -1,0 +1,90 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body class="container">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<div class="banner" id="header">
+  <div class="container">
+    <table>
+      <tr>
+        <th><i class="fa fa-twitter" aria-hidden="true"></i><%= link_to 'Home', controller: 'welcome' %></th>
+        <th id="lang">Language: English</th>
+        <th>Have an account? Log in</th>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="bod">
+<div class="container text-center fo">
+  <h1>Join Twitter today</h1>
+    <div class="textbox">
+      <div class="prompt name">
+        <div class="field" data-fieldname="name">
+          <input id="full-name" type="text" autocomplete="off" value name="user[name]" maxlength="20" aria-required="true" placeholder="Full name" name="name" required>
+        </div>
+      </div>
+
+      <br>
+      <div class="prompt email">
+        <div class="field" data-fieldname="email">
+          <input id="email" class="email-input" type="text" autocomplete="off" value name="user[email]" aria-required="true" placeholder="Phone or Email" name="email" required>
+        </div>
+      </div>
+
+      <br>
+      <div class="prompt password">
+        <div class="field" data-fieldname="password">
+          <input id="password" type="password" value name="user[password]" aria-required="true" placeholder="Password" name="psw" required>
+        </div>
+      </div>
+
+      <br>
+      <div class="prompt optin">
+        <input type="checkbox" checked="checked">
+        <span>
+        Personalize Twitter based on where you've seen Twitter content on the web.
+        <a class="cookie-personalization-support" href="https://support.twitter.com/articles/20169421" target="_blank" rel="noopener">Learn more</a>.
+      </span>
+  </div>
+  <input type="hidden" name="ad_ref" value>
+</div>
+</div>
+<div class="doit">
+  <div class="sign-up-box">
+    <input class="signup EdgeButton EdgeButton--primary EdgeButton--large submit" type="submit" id="submit_button" value="Sign up">
+  </div>
+</div>
+<div class="term">
+  <p>"By signing up, you agree to the "
+    <a href="#" target="_blank">Terms of Service</a>
+    " and "
+    <a href="#" target="_blank">Privacy Policy</a>
+    ", including "
+    <a href="https://support.twitter.com/articles/20170514" target="_blank">Cookie Use</a>
+    ". Others will be able to find you by email or phone number provided."
+  </p>
+</div>
+
+ <div class="col-lg-4 school-options-dropdown text-center">
+  <div class="dropdown btn-group">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Advanced Options
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><input type="checkbox" checked="checked">Let others find me by my email address</li>
+      <li><input type="checkbox" checked="checked"> Let others find me by my phone number</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'signup/index'
+
   get 'welcome/index'
 
   resources :articles do
